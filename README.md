@@ -29,3 +29,12 @@ then u gonna
 - run `/mcp` inside He
 - ask Him to let it rip
 
+## what else
+
+`fdny-cheatengine-vals.ct` currently only contains the memory address of the z impulse for jump height.  It can be modified to change jump height in game.
+
+`index.html` contains searchable, partially complete decomp info and is served up with github pages
+
+## then what
+
+The webpage, database and schema are what the agent came up with, and happened to work perfectly on the first run.  The process may not be repeatable, intent is to capture the artifacts and rebuild with deterministic code if I decide to expand this process to other games.
