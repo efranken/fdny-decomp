@@ -1,0 +1,15 @@
+# Everything machine-generated: downloads, installed tools, Ghidra projects.
+# Nothing under here is source — all scripts live in environment/scripts/.
+environment/local/
+
+# Downloaded game resources — re-fetched by environment/scripts/get_fdny.ps1
+environment/fdny/
+
+# GhidrAssistMCP writes these relative to Ghidra's working directory when
+# launched from the repo root, instead of into its own extension folder.
+/ghidrassist_analysis.db
+/ghidrassist_rlhf.db
+
+# Packer's ISO cache (multi-GB) and build output
+environment/packer/packer_cache/
+environment/packer/output-*/
